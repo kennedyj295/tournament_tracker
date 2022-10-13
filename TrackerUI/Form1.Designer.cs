@@ -41,6 +41,7 @@
             this.TeamOneScoreValue = new System.Windows.Forms.TextBox();
             this.TeamTwoScoreValue = new System.Windows.Forms.TextBox();
             this.Versus = new System.Windows.Forms.Label();
+            this.ScoreIt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Tournament
@@ -102,7 +103,7 @@
             // 
             this.FirstTeam.AutoSize = true;
             this.FirstTeam.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.FirstTeam.Location = new System.Drawing.Point(486, 269);
+            this.FirstTeam.Location = new System.Drawing.Point(495, 179);
             this.FirstTeam.Name = "FirstTeam";
             this.FirstTeam.Size = new System.Drawing.Size(112, 41);
             this.FirstTeam.TabIndex = 6;
@@ -112,7 +113,7 @@
             // 
             this.TeamTwo.AutoSize = true;
             this.TeamTwo.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.TeamTwo.Location = new System.Drawing.Point(486, 463);
+            this.TeamTwo.Location = new System.Drawing.Point(495, 373);
             this.TeamTwo.Name = "TeamTwo";
             this.TeamTwo.Size = new System.Drawing.Size(112, 41);
             this.TeamTwo.TabIndex = 7;
@@ -121,7 +122,7 @@
             // TeamOneScore
             // 
             this.TeamOneScore.AutoSize = true;
-            this.TeamOneScore.Location = new System.Drawing.Point(486, 326);
+            this.TeamOneScore.Location = new System.Drawing.Point(495, 236);
             this.TeamOneScore.Name = "TeamOneScore";
             this.TeamOneScore.Size = new System.Drawing.Size(92, 41);
             this.TeamOneScore.TabIndex = 8;
@@ -130,7 +131,7 @@
             // TeamTwoScore
             // 
             this.TeamTwoScore.AutoSize = true;
-            this.TeamTwoScore.Location = new System.Drawing.Point(486, 517);
+            this.TeamTwoScore.Location = new System.Drawing.Point(495, 427);
             this.TeamTwoScore.Name = "TeamTwoScore";
             this.TeamTwoScore.Size = new System.Drawing.Size(92, 41);
             this.TeamTwoScore.TabIndex = 9;
@@ -138,14 +139,14 @@
             // 
             // TeamOneScoreValue
             // 
-            this.TeamOneScoreValue.Location = new System.Drawing.Point(581, 323);
+            this.TeamOneScoreValue.Location = new System.Drawing.Point(590, 233);
             this.TeamOneScoreValue.Name = "TeamOneScoreValue";
             this.TeamOneScoreValue.Size = new System.Drawing.Size(151, 47);
             this.TeamOneScoreValue.TabIndex = 10;
             // 
             // TeamTwoScoreValue
             // 
-            this.TeamTwoScoreValue.Location = new System.Drawing.Point(581, 517);
+            this.TeamTwoScoreValue.Location = new System.Drawing.Point(590, 427);
             this.TeamTwoScoreValue.Name = "TeamTwoScoreValue";
             this.TeamTwoScoreValue.Size = new System.Drawing.Size(151, 47);
             this.TeamTwoScoreValue.TabIndex = 11;
@@ -153,17 +154,27 @@
             // Versus
             // 
             this.Versus.AutoSize = true;
-            this.Versus.Location = new System.Drawing.Point(581, 402);
+            this.Versus.Location = new System.Drawing.Point(590, 318);
             this.Versus.Name = "Versus";
             this.Versus.Size = new System.Drawing.Size(101, 41);
             this.Versus.TabIndex = 12;
             this.Versus.Text = "--VS--";
             // 
+            // ScoreIt
+            // 
+            this.ScoreIt.Location = new System.Drawing.Point(738, 309);
+            this.ScoreIt.Name = "ScoreIt";
+            this.ScoreIt.Size = new System.Drawing.Size(114, 59);
+            this.ScoreIt.TabIndex = 13;
+            this.ScoreIt.Text = "Score";
+            this.ScoreIt.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1700, 922);
+            this.ClientSize = new System.Drawing.Size(879, 645);
+            this.Controls.Add(this.ScoreIt);
             this.Controls.Add(this.Versus);
             this.Controls.Add(this.TeamTwoScoreValue);
             this.Controls.Add(this.TeamOneScoreValue);
@@ -201,5 +212,6 @@
         private TextBox TeamOneScoreValue;
         private TextBox TeamTwoScoreValue;
         private Label Versus;
+        private Button ScoreIt;
     }
 }

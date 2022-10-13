@@ -15,3 +15,7 @@ C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows
 C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.pdb
 C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.genruntimeconfig.cache
 C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\ref\TrackerUI.dll
+C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreateNewTournament.resources
+C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreateTeam.resources
+C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreatePrize.resources
+C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.TournamentDashboard.resources
