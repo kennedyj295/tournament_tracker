@@ -19,3 +19,6 @@ C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows
 C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreateTeam.resources
 C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreatePrize.resources
 C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.TournamentDashboard.resources
+C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\bin\Debug\net6.0-windows\TrackerLibrary.dll
+C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\bin\Debug\net6.0-windows\TrackerLibrary.pdb
+C:\repos\Tournament_Tracker\TournamentTracker\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.csproj.CopyComplete
