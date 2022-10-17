@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrackerLibrary
+namespace TrackerLibrary.Models
 {
     public class PrizeModel
     {
@@ -34,7 +34,7 @@ namespace TrackerLibrary
             double prizePercentageValue = 0;
             double.TryParse(prizePercentage, out prizePercentageValue);
             PrizePercentage = prizePercentageValue;
-           
+
         }
     }
 }

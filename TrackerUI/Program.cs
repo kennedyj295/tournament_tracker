@@ -1,6 +1,8 @@
+using TrackerLibrary;
+
 namespace TrackerUI
 {
-    internal static class Program
+    static class Program
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -12,7 +14,7 @@ namespace TrackerUI
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            TrackerLibrary.GlobalConfig.InitializeConnections(true, true);
+            TrackerLibrary.GlobalConfig.InitializeConnections(DatabaseType.Sql);
 
             //Application.Run(new TournamentDashboard());
             Application.Run(new CreatePrize());
