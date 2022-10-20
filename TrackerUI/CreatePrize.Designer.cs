@@ -74,6 +74,7 @@
             this.PrizePercentValue.PlaceholderText = "0";
             this.PrizePercentValue.Size = new System.Drawing.Size(256, 47);
             this.PrizePercentValue.TabIndex = 19;
+            this.PrizePercentValue.Text = "0";
             // 
             // PrizePercent
             // 
@@ -91,6 +92,7 @@
             this.PrizeAmountValue.PlaceholderText = "0";
             this.PrizeAmountValue.Size = new System.Drawing.Size(256, 47);
             this.PrizeAmountValue.TabIndex = 21;
+            this.PrizeAmountValue.Text = "0";
             // 
             // PrizeAmount
             // 
