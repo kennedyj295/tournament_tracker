@@ -35,15 +35,15 @@
             this.SelectTeamMember = new System.Windows.Forms.Label();
             this.CreatePrize = new System.Windows.Forms.Button();
             this.AddNewMemberBox = new System.Windows.Forms.GroupBox();
-            this.FirstNameEntry = new System.Windows.Forms.TextBox();
-            this.FirstName = new System.Windows.Forms.Label();
-            this.LastNameEntry = new System.Windows.Forms.TextBox();
-            this.LastName = new System.Windows.Forms.Label();
+            this.CreateMember = new System.Windows.Forms.Button();
             this.CellPhoneValue = new System.Windows.Forms.TextBox();
             this.CellPhone = new System.Windows.Forms.Label();
             this.EmailValue = new System.Windows.Forms.TextBox();
             this.EmailAddress = new System.Windows.Forms.Label();
-            this.CreateMember = new System.Windows.Forms.Button();
+            this.LastNameEntry = new System.Windows.Forms.TextBox();
+            this.LastName = new System.Windows.Forms.Label();
+            this.FirstNameEntry = new System.Windows.Forms.TextBox();
+            this.FirstName = new System.Windows.Forms.Label();
             this.TeamMembersListBox = new System.Windows.Forms.ListBox();
             this.DeleteMember = new System.Windows.Forms.Button();
             this.CreateNewTeam = new System.Windows.Forms.Button();
@@ -88,7 +88,7 @@
             // SelectTeamMember
             // 
             this.SelectTeamMember.AutoSize = true;
-            this.SelectTeamMember.Location = new System.Drawing.Point(31, 156);
+            this.SelectTeamMember.Location = new System.Drawing.Point(24, 156);
             this.SelectTeamMember.Name = "SelectTeamMember";
             this.SelectTeamMember.Size = new System.Drawing.Size(296, 41);
             this.SelectTeamMember.TabIndex = 19;
@@ -121,37 +121,15 @@
             this.AddNewMemberBox.TabStop = false;
             this.AddNewMemberBox.Text = "Add New Member";
             // 
-            // FirstNameEntry
+            // CreateMember
             // 
-            this.FirstNameEntry.Location = new System.Drawing.Point(183, 52);
-            this.FirstNameEntry.Name = "FirstNameEntry";
-            this.FirstNameEntry.Size = new System.Drawing.Size(256, 47);
-            this.FirstNameEntry.TabIndex = 12;
-            // 
-            // FirstName
-            // 
-            this.FirstName.AutoSize = true;
-            this.FirstName.Location = new System.Drawing.Point(17, 55);
-            this.FirstName.Name = "FirstName";
-            this.FirstName.Size = new System.Drawing.Size(160, 41);
-            this.FirstName.TabIndex = 11;
-            this.FirstName.Text = "First Name";
-            // 
-            // LastNameEntry
-            // 
-            this.LastNameEntry.Location = new System.Drawing.Point(183, 114);
-            this.LastNameEntry.Name = "LastNameEntry";
-            this.LastNameEntry.Size = new System.Drawing.Size(256, 47);
-            this.LastNameEntry.TabIndex = 14;
-            // 
-            // LastName
-            // 
-            this.LastName.AutoSize = true;
-            this.LastName.Location = new System.Drawing.Point(17, 117);
-            this.LastName.Name = "LastName";
-            this.LastName.Size = new System.Drawing.Size(157, 41);
-            this.LastName.TabIndex = 13;
-            this.LastName.Text = "Last Name";
+            this.CreateMember.Location = new System.Drawing.Point(99, 307);
+            this.CreateMember.Name = "CreateMember";
+            this.CreateMember.Size = new System.Drawing.Size(238, 50);
+            this.CreateMember.TabIndex = 23;
+            this.CreateMember.Text = "Create Member";
+            this.CreateMember.UseVisualStyleBackColor = true;
+            this.CreateMember.Click += new System.EventHandler(this.CreateMember_Click);
             // 
             // CellPhoneValue
             // 
@@ -185,14 +163,37 @@
             this.EmailAddress.TabIndex = 15;
             this.EmailAddress.Text = "Email";
             // 
-            // CreateMember
+            // LastNameEntry
             // 
-            this.CreateMember.Location = new System.Drawing.Point(99, 307);
-            this.CreateMember.Name = "CreateMember";
-            this.CreateMember.Size = new System.Drawing.Size(238, 50);
-            this.CreateMember.TabIndex = 23;
-            this.CreateMember.Text = "Create Member";
-            this.CreateMember.UseVisualStyleBackColor = true;
+            this.LastNameEntry.Location = new System.Drawing.Point(183, 114);
+            this.LastNameEntry.Name = "LastNameEntry";
+            this.LastNameEntry.Size = new System.Drawing.Size(256, 47);
+            this.LastNameEntry.TabIndex = 14;
+            // 
+            // LastName
+            // 
+            this.LastName.AutoSize = true;
+            this.LastName.Location = new System.Drawing.Point(17, 117);
+            this.LastName.Name = "LastName";
+            this.LastName.Size = new System.Drawing.Size(157, 41);
+            this.LastName.TabIndex = 13;
+            this.LastName.Text = "Last Name";
+            // 
+            // FirstNameEntry
+            // 
+            this.FirstNameEntry.Location = new System.Drawing.Point(183, 52);
+            this.FirstNameEntry.Name = "FirstNameEntry";
+            this.FirstNameEntry.Size = new System.Drawing.Size(256, 47);
+            this.FirstNameEntry.TabIndex = 12;
+            // 
+            // FirstName
+            // 
+            this.FirstName.AutoSize = true;
+            this.FirstName.Location = new System.Drawing.Point(17, 55);
+            this.FirstName.Name = "FirstName";
+            this.FirstName.Size = new System.Drawing.Size(160, 41);
+            this.FirstName.TabIndex = 11;
+            this.FirstName.Text = "First Name";
             // 
             // TeamMembersListBox
             // 
