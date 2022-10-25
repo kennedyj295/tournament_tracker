@@ -102,6 +102,7 @@
             this.CreatePrize.TabIndex = 22;
             this.CreatePrize.Text = "Add Member";
             this.CreatePrize.UseVisualStyleBackColor = true;
+            this.CreatePrize.Click += new System.EventHandler(this.CreatePrize_Click);
             // 
             // AddNewMemberBox
             // 
@@ -212,6 +213,7 @@
             this.DeleteMember.TabIndex = 28;
             this.DeleteMember.Text = "Delete Member";
             this.DeleteMember.UseVisualStyleBackColor = true;
+            this.DeleteMember.Click += new System.EventHandler(this.DeleteMember_Click);
             // 
             // CreateNewTeam
             // 
