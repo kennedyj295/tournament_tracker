@@ -223,6 +223,7 @@
             this.CreateNewTeam.TabIndex = 29;
             this.CreateNewTeam.Text = "Create Team";
             this.CreateNewTeam.UseVisualStyleBackColor = true;
+            this.CreateNewTeam.Click += new System.EventHandler(this.CreateNewTeam_Click);
             // 
             // CreateTeam
             // 
