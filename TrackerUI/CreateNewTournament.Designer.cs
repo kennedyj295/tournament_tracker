@@ -126,6 +126,7 @@
             this.AddToTournament.TabIndex = 20;
             this.AddToTournament.Text = "Add Team";
             this.AddToTournament.UseVisualStyleBackColor = true;
+            this.AddToTournament.Click += new System.EventHandler(this.AddToTournament_Click);
             // 
             // CreatePrize
             // 
@@ -135,6 +136,7 @@
             this.CreatePrize.TabIndex = 21;
             this.CreatePrize.Text = "Create Prize";
             this.CreatePrize.UseVisualStyleBackColor = true;
+            this.CreatePrize.Click += new System.EventHandler(this.CreatePrize_Click);
             // 
             // PlayersList
             // 
@@ -179,9 +181,9 @@
             this.PrizeListLabel.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PrizeListLabel.Location = new System.Drawing.Point(427, 291);
             this.PrizeListLabel.Name = "PrizeListLabel";
-            this.PrizeListLabel.Size = new System.Drawing.Size(206, 41);
+            this.PrizeListLabel.Size = new System.Drawing.Size(95, 41);
             this.PrizeListLabel.TabIndex = 26;
-            this.PrizeListLabel.Text = "Teams/Players";
+            this.PrizeListLabel.Text = "Prizes";
             // 
             // PrizesList
             // 

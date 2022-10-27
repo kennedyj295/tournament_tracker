@@ -77,5 +77,10 @@ namespace TrackerLibrary.DataAccess
         {
             return PeopleFile.fullFilePath().loadFile().convertToPersonModels();
         }
+
+        public List<TeamModel> GetTeam_All()
+        {
+            return new List<TeamModel>();
+        }
     }
 }
