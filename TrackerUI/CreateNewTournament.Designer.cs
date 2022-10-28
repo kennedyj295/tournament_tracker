@@ -117,6 +117,7 @@
             this.CreateNewTeam.TabIndex = 19;
             this.CreateNewTeam.TabStop = true;
             this.CreateNewTeam.Text = "Create New Team";
+            this.CreateNewTeam.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.CreateNewTeam_LinkClicked);
             // 
             // AddToTournament
             // 
@@ -165,6 +166,7 @@
             this.DeletePlayers.TabIndex = 24;
             this.DeletePlayers.Text = "Delete";
             this.DeletePlayers.UseVisualStyleBackColor = true;
+            this.DeletePlayers.Click += new System.EventHandler(this.DeletePlayers_Click);
             // 
             // DeletePrizes
             // 
@@ -174,6 +176,7 @@
             this.DeletePrizes.TabIndex = 27;
             this.DeletePrizes.Text = "Delete";
             this.DeletePrizes.UseVisualStyleBackColor = true;
+            this.DeletePrizes.Click += new System.EventHandler(this.DeletePrizes_Click);
             // 
             // PrizeListLabel
             // 

@@ -80,7 +80,7 @@ namespace TrackerLibrary.DataAccess
 
         public List<TeamModel> GetTeam_All()
         {
-            return new List<TeamModel>();
+            return TeamFile.fullFilePath().loadFile().ConvertToTeamModels(PeopleFile);
         }
     }
 }

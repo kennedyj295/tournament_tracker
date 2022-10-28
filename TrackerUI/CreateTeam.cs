@@ -16,11 +16,12 @@ namespace TrackerUI
     {
         private List<PersonModel> availableTeamMembers = GlobalConfig.Connection.GetPerson_All();
         private List<PersonModel> selectedTeamMembers = new List<PersonModel>();
-        public CreateTeam()
+        private ITeamRequester callingForm;
+        public CreateTeam(ITeamRequester caller)
         {
             InitializeComponent();
 
-            //CreateSampleData();
+            callingForm = caller;
 
             wireUpLists();
         }
@@ -126,6 +127,9 @@ namespace TrackerUI
             t.TeamMembers = selectedTeamMembers;
 
             GlobalConfig.Connection.CreateTeam(t);
+
+            callingForm.TeamComplete(t);
+            this.Close();
             
         }
     }

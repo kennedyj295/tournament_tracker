@@ -32,11 +32,6 @@ namespace TrackerUI
                 callingForm.PrizeComplete(model);
 
                 this.Close();
-
-                //PlaceNameValue.Text = "";
-                //PlaceNumberValue.Text = "";
-                //PrizeAmountValue.Text = "0";
-                //PrizePercentValue.Text = "0";
             }
             else
             {
