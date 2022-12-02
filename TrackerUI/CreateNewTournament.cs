@@ -96,5 +96,10 @@ namespace TrackerUI
                 InitializeLists();
             }
         }
+
+        private void CreateTournament_Click(object sender, EventArgs e)
+        {
+            //part 11
+        }
     }
 }
