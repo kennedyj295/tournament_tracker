@@ -123,7 +123,7 @@ namespace TrackerLibrary.DataAccess
 
         }
 
-        private void SaveTournamentRounds(IDbConnection connection, TournamentModel model)
+        private void SaveTournamentRounds(TournamentModel model, IDbConnection connection)
         {
             foreach (List<MatchupModel> round in model.Rounds)
             {

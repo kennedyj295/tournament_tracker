@@ -88,7 +88,7 @@ namespace TrackerLibrary.DataAccess
             }
 
             model.Id = currentId;
-            model.SaveRoundsToFile(model, MatchupFile, MatchupEntriesFile);
+            model.SaveRoundsToFile(MatchupFile, MatchupEntriesFile);
             tournamentModels.Add(model);
             tournamentModels.SaveToTournamentFile(TournamentFile);
         }
